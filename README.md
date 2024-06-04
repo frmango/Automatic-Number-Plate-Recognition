@@ -27,7 +27,7 @@ optimally identifies and tracks vehicles in diverse urban environments.
 
 For license plate detection, a pre-trained YOLOv8 nano model has been
 further refined to better recognize license plates. The model was
-retrained for 3 epochs on a specifically curated dataset from Roboflow,
+retrained on a specifically curated dataset from Roboflow,
 consisting of 21,174 training images, 2,048 validation images, and 1,020
 test images. The images in this dataset depict vehicles along with their
 license plates, ensuring that the model can accurately identify and
